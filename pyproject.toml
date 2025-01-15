@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BLINK"
+version = "1.0"
+authors = [
+  { name="Neus Pou Amengual", email="np@olobion.ai" },
+]
+description = "Package for efficiently generating cosine-based similarity scores and matching ion counts for large numbers of fragmentation mass spectra"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+	'scipy',
+	'numpy',
+	'pandas',
+	'scikit-learn'
+    'torch'
+    'matplotlib'
+    'pyteomics'
+    'pymzml'
+    'networkx'
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/olobion/blink"
