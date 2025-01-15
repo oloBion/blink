@@ -135,3 +135,7 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+tutorial/sparse_spectra.npz
+tutorial/7H12_9_1_song-75-s004-a04.mzML
+tutorial/BERKELEY-LAB.mgf
+tutorial/blink_test.ipynb
