@@ -11,7 +11,7 @@ setup(
     url='https://github.com/oloBion/blink',
     install_requires = REQUIREMENTS,
     packages = ['blink'],
-    python_requires='>=3.9',
+    python_requires='>=3.10',
     py_modules=['blink', 'blink_cli', 'data_binning', 'matrix_manipulation',
                 'msn_io', 'scoring', 'spectral_normalization', 'utils']
     )
