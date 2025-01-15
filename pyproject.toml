@@ -15,11 +15,11 @@ dependencies = [
 	'scipy',
 	'numpy',
 	'pandas',
-	'scikit-learn'
-  'torch'
-  'matplotlib'
-  'pyteomics'
-  'pymzml'
+	'scikit-learn',
+  'torch',
+  'matplotlib',
+  'pyteomics',
+  'pymzml',
   'networkx'
 ]
 classifiers = [
