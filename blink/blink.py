@@ -107,13 +107,13 @@ def discretize_spectra(mzis_s1: list, mzis_s2: list, precursor_mzs_s1: list, pre
 
     return discretized_spectra
 
-def score_sparse_spectra(discretized_spectra: dict, gpu: bool = False) -> dict:
+def score_sparse_spectra(discretized_spectra: dict) -> dict:
     """Generates scores and matching ion counts for discretized spectra"""
     
     if 'mdi' and 'mdc' in discretized_spectra['s1']:
-        scores = _score_mass_diffs(discretized_spectra, gpu=gpu) 
+        scores = _score_mass_diffs(discretized_spectra) 
     else:
-        scores = _score_sparse_matrices(discretized_spectra, gpu=gpu)
+        scores = _score_sparse_matrices(discretized_spectra)
         
     return scores
 
