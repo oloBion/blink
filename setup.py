@@ -6,8 +6,8 @@ setup(
     name='BLINK',
     version='1.0',
     description='Package for efficiently generating cosine-based similarity scores and matching ion counts for large numbers of fragmentation mass spectra',
-    author='Neus Pou Amengual', ###
-    author_email='np@olobion.ai', ###
+    author='Neus Pou Amengual',
+    author_email='np@olobion.ai',
     url='https://github.com/oloBion/blink',
     install_requires = REQUIREMENTS,
     packages = ['blink'],
