@@ -1,6 +1,6 @@
 from setuptools import setup
 
-REQUIREMENTS = ['scipy', 'numpy','pandas', 'scikit-learn', 'torch', 'matplotlib', 'pyteomics', 'pymzml', 'networkx']
+REQUIREMENTS = ['scipy', 'numpy','pandas', 'scikit-learn', 'matplotlib', 'pyteomics', 'pymzml', 'networkx']
 
 setup(
     name='BLINK',
