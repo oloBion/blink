@@ -16,7 +16,6 @@ dependencies = [
 	"numpy",
 	"pandas",
 	"scikit-learn",
-  "torch",
   "matplotlib",
   "pyteomics",
   "pymzml",
