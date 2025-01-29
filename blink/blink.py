@@ -89,10 +89,12 @@ def discretize_spectra(mzis_s1: list, mzis_s2: list, precursor_mzs_s1: list, pre
     
     if metadata_s1 is not None:
         n_mzis_s1['metadata'] = metadata_s1
+    else:
+        n_mzis_s1['metadata'] = [{} for ele in range(len(mzis_s1))]
+    
     if metadata_s2 is not None:
         n_mzis_s2['metadata'] = metadata_s2
     else:
-        n_mzis_s1['metadata'] = [{} for ele in range(len(mzis_s1))]
         n_mzis_s2['metadata'] = [{} for ele in range(len(mzis_s2))]
         
     for i in range(len(mzis_s1)):
