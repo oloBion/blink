@@ -4,7 +4,7 @@ REQUIREMENTS = ['scipy', 'numpy','pandas', 'scikit-learn', 'matplotlib', 'pyteom
 
 setup(
     name='BLINK',
-    version='1.1',
+    version='1.2',
     description='Package for efficiently generating cosine-based similarity scores and matching ion counts for large numbers of fragmentation mass spectra',
     author='Neus Pou Amengual',
     author_email='np@olobion.ai',
